@@ -1,0 +1,26 @@
+{
+  "name": "csv-sync",
+  "version": "1.0.0",
+  "description": "assesment for lumel",
+  "main": "index.js",
+  "author": "Hari Krishnan",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev:server": "node src/server/index.js",
+    "dev:worker": "node src/worker/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "node-cron": "^3.0.3",
+    "pg": "^8.14.0",
+    "sequelize": "^6.37.6",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.2"
+  }
+}
