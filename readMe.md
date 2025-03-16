@@ -25,7 +25,7 @@
 ## Running
 
 1. run `yarn run dev:server` to start the server
-2. run `yarn run dev:worker` to start the worker
+2. run `yarn run dev:worker` to start the worker (currently implemented)
 
 
 ## Schema Reference
